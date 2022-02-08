@@ -1,0 +1,52 @@
+
+header {
+    margin: 10px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.under-title-1, .under-title {
+    min-width: 40%;
+}
+
+.section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    margin: 10px 0px 0px 0px;
+    border-radius: 10%;
+}
+span {
+    margin: 35px 0px 0px 0px;
+}
+
+.images {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.container-images {
+    margin: 0px 14px;
+}
+.container-images span {
+    writing-mode: vertical-lr;
+vertical-align: top;
+}
+
+@media all and (max-width: 945px) {
+    header {
+        margin: 10px;
+    }
+    
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }   
+}
